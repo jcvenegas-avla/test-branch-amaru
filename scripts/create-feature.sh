@@ -25,7 +25,7 @@ esac
 
 # Solicitar nombre de la feature
 echo ""
-printf "✏️  Ingresa el nombre de la feature (ej: JCVENEGAS-AA-0): "
+printf "✏️  Ingresa el nombre de la feature (ej: USUARIO-AA-0): "
 read FEATURE_NAME
 
 # Validación básica
