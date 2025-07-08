@@ -12,3 +12,4 @@ chmod +x .git/hooks/*
 echo "✅ Hooks instalados correctamente."
 
 # sh install-hooks.sh
+# JCVENEGAS-1
