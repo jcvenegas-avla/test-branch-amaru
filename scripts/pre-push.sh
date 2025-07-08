@@ -4,7 +4,7 @@
 protected_branches="main|release|develop|develop-cl|develop-pe|develop-mx|develop-us|develop-br"
 
 # ✅ Patrón de nombre de ramas permitidas
-valid_branch_pattern='^(feature|hotfix|bugfix|develop-cl|develop-pe|develop-mx|develop-us|develop-br|develop)/(cl|pe|mx|us|br)/[A-Z0-9._-]+$'
+valid_branch_pattern='^(feature|hotfix|bugfix)/(cl|pe|mx|us|br)/[A-Z0-9._-]+$'
 
 while read local_ref local_sha remote_ref remote_sha
 do
