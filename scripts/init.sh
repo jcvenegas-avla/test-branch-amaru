@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# JCVENEGAS-2
 echo "🔧 Instalando Git hooks..."
 
 cp scripts/hooks/commit-msg.sh .git/hooks/commit-msg
@@ -12,3 +12,4 @@ chmod +x .git/hooks/*
 echo "✅ Hooks instalados correctamente."
 
 # sh install-hooks.sh
+# JCVENEGAS-1
