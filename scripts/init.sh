@@ -2,10 +2,10 @@
 
 echo "🔧 Instalando Git hooks..."
 
-cp scripts/validate-commit-msg.sh .git/hooks/commit-msg
-cp scripts/prevent-push.sh .git/hooks/pre-push
-cp scripts/post-checkout.sh .git/hooks/post-checkout
-cp scripts/pre-commit.sh .git/hooks/pre-commit
+cp scripts/hooks/commit-msg.sh .git/hooks/commit-msg
+cp scripts/hooks/pre-push.sh .git/hooks/pre-push
+cp scripts/hooks/post-checkout.sh .git/hooks/post-checkout
+cp scripts/hooks/pre-commit.sh .git/hooks/pre-commit
 
 chmod +x .git/hooks/*
 
